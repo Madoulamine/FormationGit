@@ -1,0 +1,120 @@
+header{
+    background-color: blue;
+    color: white;
+    text-align: right;
+    margin-left: 50%;
+    margin-right: 30px;
+}
+h1{
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+
+#liens{
+    font-size: 26px;
+    text-align: center;
+}
+.entete-gauche{
+    background-color: blue;
+    color: white;
+    text-align: right;
+    margin-left: 4px;
+    margin-right: 55%;
+    text-align: left;
+    margin-top: -3%;
+   
+}
+.link-cliquer{
+    margin-top: 6px;
+}
+.link{
+    border-radius: 19px;
+    background-color: blue;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ic{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.images-container{
+    position:relative;
+    display: inline-block;
+    margin: 10px;
+    
+}
+img{
+    border-radius: 12px;
+    width:180;
+    height:190;
+}
+
+.icon-link{
+    position: absolute;
+    top: 86%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+a{
+    border-radius: 15px;
+    background-color: blue;
+    padding: 4%;
+}
+i{
+    font-size: 15px;
+    color: white;
+    
+}
+.sect{
+    display:flex;
+    justify-content: end;
+    margin: 0px 20px 0 10px;
+}
+
+#camera-icon{
+    margin-top: 12px;
+    cursor: pointer;
+}
+input{
+    display: none;
+}
+.sect1{
+    display:flex;
+    justify-content: end;
+    margin: 0px 20px 0 10px;
+}
+
+
+.container{
+    position: relative;
+    display: inline-block;
+    
+}
+.infobulle{
+    visibility: hidden;
+    background-color: rgba(89, 0, 255, 0.654);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px 10px;
+    position: absolute;
+    opacity: 0;
+    transition:ease-out 0.8s;
+    bottom: 10%;
+    left: 12%;
+    margin-left: -50%;
+    
+}
+.container:hover .infobulle{
+    visibility: visible;
+    opacity: 1;
+}
